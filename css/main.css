@@ -1,0 +1,28 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    gap: 20px;
+    font-family: "Black 900", sans-serif ;
+}
+
+main h1 {
+    font-size: 8rem;
+    color: white;
+}
+
+main p {
+    font-size: 1.5rem;
+    width: 900px;
+    height: 130px;
+    color: white;
+}
+
+main h2 {
+    width: 200px;
+    margin-top: 80px;
+    transform: rotate(-90deg);
+    color: red;
+}
