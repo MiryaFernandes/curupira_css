@@ -16,7 +16,7 @@ main h1 {
 main p {
     font-size: 1.5rem;
     width: 900px;
-    height: 130px;
+    height: 200px;
     color: white;
 }
 
@@ -26,3 +26,7 @@ main h2 {
     transform: rotate(-90deg);
     color: red;
 }
+
+
+
+ 
