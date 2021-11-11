@@ -1,44 +1,48 @@
 header {
-    position: relative;
+    background-color: #0005;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0 80px;
 }
 
-.menu  > ul {
+.menu > ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 33px;
 }
 
-.dropdown-menu > li:hover > a {
-    color: #e50914;
-}
-
-.dropdown-menu > li:hover > a {
-    display: flex;
-}
-
-.dropdown-submenu {
-    background-color: #000a;
-    position: absolute;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    width: 150px;
-    height: 171px;
-    list-style: none;
-}
-
-.dropdown-submenu a {
+.menu a {
     display: flex;
     align-items: center;
-    height: 40px;
-    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.6s;
+    height: 25px;
 }
+.dropdown-menu > li >  a:hover{
+    color: red;
+}
+.dropdown-menu> li:hover .dropdown-submenu{
+    display:flex;
+}
+.dropdown-submenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #0005;
+    width: 100px;
+    height: 130px;
 
-.dropdown-submenu li:hover {
-    background-color: #e50914;
+}
+.dropdown-submenu li{
+    padding-left: 10px;
+}
+.dropdown-submenu li:hover{
+    background-color: red;  
 }

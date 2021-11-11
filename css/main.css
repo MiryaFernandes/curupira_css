@@ -11,6 +11,18 @@ main {
 main h1 {
     font-size: 8rem;
     color: white;
+    width: 100px;
+}
+
+.texto {
+    font-size: 1.8rem;
+    width: 930px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 80px;
+    font-family: "Open sans", sans-serif;
 }
 
 main p {
@@ -21,12 +33,15 @@ main p {
 }
 
 main h2 {
-    width: 200px;
+    width: 100px;
     margin-top: 80px;
     transform: rotate(-90deg);
     color: red;
 }
 
+style{
+    color: black;
+}
 
 
  
